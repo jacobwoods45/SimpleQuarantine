@@ -131,7 +131,7 @@ document.querySelector(".calc-btn").addEventListener('click', function(){
     let timeleft14 = Math.ceil((releasedate14-today)/ 24 / 60 / 60 / 1000 ) ;
     console.log(timeleft14);
     
-    if (timeleft14 <= 14 && timeleft14 > 0 ){
+    if (timeleft14 <= 14 && timeleft14 >= 0 ){
         document.getElementById("answer6").innerHTML = timeleft14.toString() + " DAYS LEFT";
 
     }
@@ -153,7 +153,7 @@ document.querySelector(".calc-btn").addEventListener('click', function(){
     document.getElementById("answer1").innerHTML = "Today's date:  " + date ;
     document.getElementById("answer2").innerHTML = "Your 2 Week Release Date Is: " + releasedate14.toDateString();
     document.getElementById("answer3").innerHTML = "Some Public Health Authorities Allow For A 10 Day Quarantine Without a Test:  " + releasedate10.toDateString();
-    document.getElementById("answer4").innerHTML = "Or Release On Day 7:  " + releasedate7.toDateString();
+    document.getElementById("answer4").innerHTML = "Or release On Day 7:  " + releasedate7.toDateString();
     document.getElementById("answer5").innerHTML = "Only With a Test On Day 5:  " + releasedate5.toDateString();
    
 
