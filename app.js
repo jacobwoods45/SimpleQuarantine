@@ -131,7 +131,7 @@ document.querySelector(".calc-btn").addEventListener('click', function(){
     let timeleft14 = Math.ceil((releasedate14-today)/ 24 / 60 / 60 / 1000 ) ;
     console.log(timeleft14);
     
-    if (timeleft14 <= 14 && timeleft14 >= 0 ){
+    if (timeleft14 <= 15 && timeleft14 >= 0 ){
         document.getElementById("answer6").innerHTML = timeleft14.toString() + " DAYS LEFT";
 
     }
