@@ -148,7 +148,7 @@ document.querySelector(".calc-btn").addEventListener('click', function(){
 
 
 
-    document.getElementById("answer0").innerHTML = "Hello, let's get stared. Today is "+ weekday + " . Let's make your quarantine simplified. As always, please refer to the CDC as guidelines change.";
+    document.getElementById("answer0").innerHTML = "Hello, let's get started. Today is "+ weekday + " . Let's make your quarantine simplified. As always, please refer to the CDC as guidelines change.";
     document.getElementById("answer").innerHTML = "You were exposed on: " + exposuredate ;
     document.getElementById("answer1").innerHTML = "Today's date:  " + date ;
     document.getElementById("answer2").innerHTML = "Your 2 Week Release Date Is: " + releasedate14.toDateString();
