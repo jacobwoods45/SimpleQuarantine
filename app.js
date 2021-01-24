@@ -152,7 +152,7 @@ document.querySelector(".calc-btn").addEventListener('click', function(){
     document.getElementById("answer").innerHTML = "You were exposed on: " + exposuredate ;
     document.getElementById("answer1").innerHTML = "Today's date:  " + date ;
     document.getElementById("answer2").innerHTML = "Your 2 Week Release Date Is: " + releasedate14.toDateString();
-    document.getElementById("answer3").innerHTML = "Some Public Health Authorities Allow For A 10 Day Quarentine Without a Test:  " + releasedate10.toDateString();
+    document.getElementById("answer3").innerHTML = "Some Public Health Authorities Allow For A 10 Day Quarantine Without a Test:  " + releasedate10.toDateString();
     document.getElementById("answer4").innerHTML = "Or Release On Day 7:  " + releasedate7.toDateString();
     document.getElementById("answer5").innerHTML = "Only With a Test On Day 5:  " + releasedate5.toDateString();
    
